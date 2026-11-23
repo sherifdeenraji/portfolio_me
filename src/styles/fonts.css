@@ -1,0 +1,6 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-body: 'Source Code Pro', monospace;
+  --font-heading: 'Agrave Pro', cursive;
+}

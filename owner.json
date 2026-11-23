@@ -1,0 +1,43 @@
+﻿{
+    "name":  "Sherifdeen Raji",
+    "email":  "sherifdeenraji96@gmail.com",
+    "github":  "sherifdeenraji",
+    "linkedin":  "sherifdeenraji",
+    "whatsapp":  "08118448441",
+    "twitter":  "sherifdeenraj",
+    "languages":  [
+                      "JavaScript",
+                      "Python"
+                  ],
+    "frameworks":  [
+                       "React",
+                       "Express.js",
+                       "fastapi",
+                       "flask"
+                   ],
+    "database":  [
+                     "MongoDB",
+                     "PostgreSQL"
+                 ],
+    "tools":  [
+                  "Git",
+                  "Docker",
+                  "Postman",
+                  "VS Code",
+                  "\u0027cursor\u0027",
+                  "linux"
+              ],
+    "projects":  [
+                     {
+                         "name":  "Balotly",
+                         "description":  "Run student union, departmental, or association elections in minutes with no account needed up front. Voter tokens are 100% uncoupled from identity, and receipts are instantly verifiable.",
+                         "url":  "https://balotly.online"
+                     },
+                     {
+                         "name":  "brandboard",
+                         "description":  "AI-assisted banner generation from a saved brand kit and short prompt. It validates assets, sanitizes deterministic HTML/CSS/SVG, tracks status, and lets users preview and export PNG or JPEG.",
+                         "url":  "https://brandboard.vercel.app"
+                     }
+                 ],
+    "photo":  "/profile.jpg"
+}
