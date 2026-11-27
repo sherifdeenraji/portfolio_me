@@ -5,10 +5,11 @@ function ProjectCard({ project }) {
   return (
     <article className={`project-card ${project.className}`}>
       <div className={`project-art ${project.className}-art`} aria-hidden="true">
-        <span className="project-mark">{project.name.slice(0, 1)}</span>
+        <img className="project-image" src={project.image} alt="" />
+        {/* <span className="project-mark">{project.name.slice(0, 1)}</span>
         <span className="art-orbit orbit-one" />
         <span className="art-orbit orbit-two" />
-        <span className="art-chip"><Icon>{project.symbol}</Icon></span>
+        <span className="art-chip"><Icon>{project.symbol}</Icon></span> */}
       </div>
       <div className="project-copy">
         <div>

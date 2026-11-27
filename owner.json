@@ -31,12 +31,14 @@
                      {
                          "name":  "Balotly",
                          "description":  "Run student union, departmental, or association elections in minutes with no account needed up front. Voter tokens are 100% uncoupled from identity, and receipts are instantly verifiable.",
-                         "url":  "https://balotly.online"
+                         "url":  "https://balotly.online",
+                         "image":  "https://pub-4f5fb9969f5b4834a5725d881a110b39.r2.dev/showit/balotly.png"
                      },
                      {
                          "name":  "brandboard",
                          "description":  "AI-assisted banner generation from a saved brand kit and short prompt. It validates assets, sanitizes deterministic HTML/CSS/SVG, tracks status, and lets users preview and export PNG or JPEG.",
-                         "url":  "https://brandboard.vercel.app"
+                         "url":  "https://brandboard.vercel.app",
+                         "image":  "https://pub-4f5fb9969f5b4834a5725d881a110b39.r2.dev/showit/brandboard.png"
                      }
                  ],
     "photo":  "/profile.jpg"
