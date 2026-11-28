@@ -10,7 +10,13 @@ function SkillSet({ duplicate = false }) {
     <div className="skill-set" aria-hidden={duplicate || undefined}>
       {skills.map((skill) => (
         <span className="skill" key={skill.name}>
-          <img src={`https://devicons.io/devicons/icons/${skill.icon}.svg`} alt="" loading="lazy" />
+          <img
+            className={skill.darkInvert ? 'skill-icon-dark' : undefined}
+            src={skill.iconUrl}
+            alt=""
+            loading="lazy"
+            onError={(event) => { event.currentTarget.style.display = 'none'; }}
+          />
           {skill.name}
         </span>
       ))}

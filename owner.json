@@ -1,45 +1,60 @@
 ﻿{
-    "name":  "Sherifdeen Raji",
-    "email":  "sherifdeenraji96@gmail.com",
-    "github":  "sherifdeenraji",
-    "linkedin":  "sherifdeenraji",
-    "whatsapp":  "08118448441",
-    "twitter":  "sherifdeenraj",
-    "languages":  [
-                      "JavaScript",
-                      "Python"
-                  ],
-    "frameworks":  [
-                       "React",
-                       "Express.js",
-                       "fastapi",
-                       "flask"
-                   ],
-    "database":  [
-                     "MongoDB",
-                     "PostgreSQL"
-                 ],
-    "tools":  [
-                  "Git",
-                  "Docker",
-                  "Postman",
-                  "VS Code",
-                  "\u0027cursor\u0027",
-                  "linux"
-              ],
-    "projects":  [
-                     {
-                         "name":  "Balotly",
-                         "description":  "Run student union, departmental, or association elections in minutes with no account needed up front. Voter tokens are 100% uncoupled from identity, and receipts are instantly verifiable.",
-                         "url":  "https://balotly.online",
-                         "image":  "https://pub-4f5fb9969f5b4834a5725d881a110b39.r2.dev/showit/balotly.png"
-                     },
-                     {
-                         "name":  "brandboard",
-                         "description":  "AI-assisted banner generation from a saved brand kit and short prompt. It validates assets, sanitizes deterministic HTML/CSS/SVG, tracks status, and lets users preview and export PNG or JPEG.",
-                         "url":  "https://brandboard.vercel.app",
-                         "image":  "https://pub-4f5fb9969f5b4834a5725d881a110b39.r2.dev/showit/brandboard.png"
-                     }
-                 ],
-    "photo":  "/profile.jpg"
+    "name": "Sherifdeen Raji",
+    "email": "sherifdeenraji96@gmail.com",
+    "github": "sherifdeenraji",
+    "linkedin": "sherifdeenraji",
+    "whatsapp": "08118448441",
+    "twitter": "sherifdeenraj",
+    "availability": "Full-stack developer · open to freelance work",
+    "achievements": [
+        "3rd place — Busha Hackathon"
+    ],
+    "resume": "/resume.pdf",
+    "about": [
+        "I'm Sherifdeen, a self-taught full-stack developer based in Nigeria. I learn by shipping: Balotly started as a question about how student elections could be fairer and became a live platform that ran SPEOAU's departmental election end to end.",
+        "With Brandboard I lead a small team building AI-assisted banner generation, from asset validation to export. I take on freelance work across web products and APIs — if you have an idea that needs building, I'd like to hear about it."
+    ],
+    "languages": [
+        "JavaScript",
+        "TypeScript",
+        "Python"
+    ],
+    "frameworks": [
+        "React",
+        "Next.js",
+        "Express.js",
+        "FastAPI",
+        "Flask"
+    ],
+    "database": [
+        "MongoDB",
+        "PostgreSQL"
+    ],
+    "tools": [
+        "Git",
+        "Docker",
+        "Postman",
+        "VS Code",
+        "Cursor",
+        "Linux"
+    ],
+    "projects": [
+        {
+            "name": "Balotly",
+            "description": "Run student union, departmental, or association elections in minutes with no account needed up front. Voter tokens are 100% uncoupled from identity, and receipts are instantly verifiable.",
+            "highlight": "Ran SPEOAU's departmental election end to end.",
+            "status": "Live",
+            "url": "https://balotly.online",
+            "image": "https://pub-4f5fb9969f5b4834a5725d881a110b39.r2.dev/showit/balotly.png"
+        },
+        {
+            "name": "brandboard",
+            "description": "AI-assisted banner generation from a saved brand kit and short prompt. It validates assets, sanitizes deterministic HTML/CSS/SVG, tracks status, and lets users preview and export PNG or JPEG.",
+            "highlight": "Team build — I lead development.",
+            "status": "In development",
+            "url": "https://brandboard.vercel.app",
+            "image": "https://pub-4f5fb9969f5b4834a5725d881a110b39.r2.dev/showit/brandboard.png"
+        }
+    ],
+    "photo": "/profile.jpg"
 }

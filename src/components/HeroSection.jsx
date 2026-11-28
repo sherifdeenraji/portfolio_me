@@ -9,13 +9,13 @@ export function HeroSection() {
 
   return (
     <section className="hero" id="home" aria-labelledby="hero-title">
-      <div className="hero-copy" id="about">
-        <p className="availability">JavaScript &amp; Python developer</p>
-        <h1 id="hero-title">I build useful<br /><em>digital products.</em></h1>
-        <p className="hero-intro">My name is {firstName}. I build useful<br className="desktop-break" /> web products and APIs.</p>
+      <div className="hero-copy">
+        <p className="availability">{profile.availability}</p>
+        <h1 id="hero-title">I ship products<br /><em>people use.</em></h1>
+        <p className="hero-intro">I'm {firstName}. I built Balotly, a live election platform, and lead the team behind Brandboard. I design, build and ship web products and APIs, end to end.</p>
         <div className="hero-actions">
-          <a className="button button-primary" href="#work">Explore my work <Icon>arrow_downward</Icon></a>
-          <a className="text-link" href={`mailto:${profile.email}`}>Get in touch <Icon>arrow_outward</Icon></a>
+          <a className="button button-primary" href="#work">See the products <Icon>arrow_downward</Icon></a>
+          <a className="text-link" href={`mailto:${profile.email}`}>Hire me <Icon>arrow_outward</Icon></a>
         </div>
       </div>
       <div className="hero-art">
@@ -30,12 +30,8 @@ export function HeroSection() {
             </div>
           )}
         </div>
-        {/* <span className="hero-art-note">Ideas into interfaces<br />and dependable systems.</span> */}
       </div>
       <a href="#stack" className="scroll-cue"><span /> Scroll to explore</a>
     </section>
   );
 }
-
-
-

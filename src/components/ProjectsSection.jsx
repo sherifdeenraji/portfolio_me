@@ -13,12 +13,18 @@ function ProjectCard({ project }) {
       </div>
       <div className="project-copy">
         <div>
-          <p className="project-type">{project.type}</p>
+          <p className="project-type">
+            {project.type}
+            {project.status && (
+              <span className={`project-status${project.status === 'Live' ? ' status-live' : ''}`}>{project.status}</span>
+            )}
+          </p>
           <h3>{project.name}</h3>
           <p className="project-description">{project.description}</p>
+          {project.highlight && <p className="project-highlight">{project.highlight}</p>}
         </div>
-        <a className="project-link" href={project.url} target="_blank" rel="noreferrer" aria-label={`Visit ${project.name}`}>
-          <Icon>arrow_outward</Icon>
+        <a className="project-link" href={project.url} target="_blank" rel="noreferrer">
+          {project.status === 'Live' ? 'View live' : 'Preview'} <Icon>arrow_outward</Icon>
         </a>
       </div>
     </article>
